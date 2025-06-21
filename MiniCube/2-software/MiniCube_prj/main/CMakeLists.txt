@@ -1,2 +1,2 @@
-idf_component_register(SRCS "my_cubic_proj.c"
+idf_component_register(SRCS "main.c"
                     INCLUDE_DIRS ".")
