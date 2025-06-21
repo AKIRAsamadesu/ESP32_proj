@@ -1,0 +1,9 @@
+CMake Error at /home/zhou/esp/esp-idf/tools/cmake/build.cmake:265 (message):
+  Failed to resolve component 'i2c'.
+Call Stack (most recent call first):
+  /home/zhou/esp/esp-idf/tools/cmake/build.cmake:301 (__build_resolve_and_add_req)
+  /home/zhou/esp/esp-idf/tools/cmake/build.cmake:597 (__build_expand_requirements)
+  /home/zhou/esp/esp-idf/tools/cmake/project.cmake:453 (idf_build_process)
+  CMakeLists.txt:10 (project)
+
+

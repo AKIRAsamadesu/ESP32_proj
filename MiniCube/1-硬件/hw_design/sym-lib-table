@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "My_component_symbol")(type "KiCad")(uri "/home/zhou/Desktop/小电视/My_cubic/1-硬件/component_lib/component_symbol/ASEAIG-40.000MHZ-C-S-T.kicad_sym")(options "")(descr ""))
+)
