@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "MiniCube",
-    "project_version":    "a0ab412-dirty",
+    "project_version":    "439f534-dirty",
     "project_path":       "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj",
     "idf_path":           "D:/Espressif/frameworks/esp-idf-v5.2.1",
     "build_dir":          "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build",

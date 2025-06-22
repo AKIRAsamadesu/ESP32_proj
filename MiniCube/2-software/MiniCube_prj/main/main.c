@@ -22,6 +22,12 @@ void task_A(void* param)
         lcdFillScreen(&dev, RED);
 	    lcdDrawFinish(&dev);
         vTaskDelay(pdMS_TO_TICKS(1000));
+        lcdFillScreen(&dev, GREEN);
+	    lcdDrawFinish(&dev);
+        vTaskDelay(pdMS_TO_TICKS(1000));
+        lcdFillScreen(&dev, BLUE);
+	    lcdDrawFinish(&dev);
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
 
