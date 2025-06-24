@@ -95,7 +95,8 @@ void spi_master_init(TFT_t * dev, int16_t GPIO_MOSI, int16_t GPIO_SCLK, int16_t 
 	spi_device_interface_config_t devcfg;
 	memset(&devcfg, 0, sizeof(devcfg));
 	//devcfg.clock_speed_hz = SPI_Frequency;
-	devcfg.clock_speed_hz = clock_speed_hz;
+	devcfg.clock_speed_hz = 40*1000*1000;
+	// devcfg.clock_speed_hz = clock_speed_hz;
 	devcfg.queue_size = 7;
 	//devcfg.mode = 2;
 	devcfg.mode = 3;

@@ -16,7 +16,10 @@
     "freertos.h": "c",
     "spi_master.h": "c",
     "esp_lcd_panel_interface.h": "c",
-    "sdkconfig.h": "c"
+    "sdkconfig.h": "c",
+    "esp_spiffs.h": "c",
+    "esp_err.h": "c",
+    "gpio.h": "c"
   },
   "idf.flashType": "UART"
 }

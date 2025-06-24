@@ -8,3 +8,4 @@ include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(MiniCube)
 
 set(EXTRA_COMPONENT_DIRS ./components)
+# spiffs_create_partition_image(icon "icon/Unoline" FLASH_IN_PROJECT)

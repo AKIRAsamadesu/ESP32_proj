@@ -63,5 +63,6 @@ C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/b
 C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/touch_element/libtouch_element.a
 C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/usb/libusb.a
 C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
-C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/bsp/libbsp.a
+C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/bsp_chzhou/libbsp_chzhou.a
 C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/main/libmain.a
+C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/bsp/libbsp.a
