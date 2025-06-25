@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "MiniCube",
-    "project_version":    "547f8e0-dirty",
+    "project_version":    "58cd3c3-dirty",
     "project_path":       "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj",
     "idf_path":           "D:/Espressif/frameworks/esp-idf-v5.2.1",
     "build_dir":          "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build",
@@ -25,8 +25,8 @@
         "COMPONENT_KCONFIGS_PROJBUILD" : "D:/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader/Kconfig.projbuild;D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_app_format/Kconfig.projbuild;D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/Kconfig.projbuild;D:/Espressif/frameworks/esp-idf-v5.2.1/components/esptool_py/Kconfig.projbuild;D:/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bsp", "bsp_chzhou", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "D:/Espressif/frameworks/esp-idf-v5.2.1/components/app_trace", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/app_update", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader_support", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp_chzhou", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/bt", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/cmock", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/console", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/cxx", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/driver", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/efuse", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp-tls", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_adc", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_app_format", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_bootloader_format", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_coex", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_common", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_eth", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_event", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_gdbstub", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_hid", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_http_client", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_http_server", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_https_ota", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_https_server", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_hw_support", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_lcd", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_local_ctrl", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_mm", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_netif", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_netif_stack", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_partition", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_phy", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_pm", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_psram", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_ringbuf", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_timer", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_wifi", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/espcoredump", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esptool_py", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/fatfs", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/hal", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/heap", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/http_parser", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/idf_test", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/ieee802154", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/json", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/log", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/lwip", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/main", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/mbedtls", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/mqtt", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/nvs_flash", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/nvs_sec_provider", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/openthread", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/perfmon", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/protobuf-c", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/protocomm", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/pthread", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/sdmmc", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/soc", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spi_flash", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/tcp_transport", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/touch_element", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/ulp", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/unity", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/usb", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/vfs", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/wear_levelling", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/wifi_provisioning", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/wpa_supplicant", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/xtensa", "" ],
+    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bsp", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "sdmmc", "soc", "spi_flash", "spiffs", "st7789", "tcp_transport", "touch_element", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "D:/Espressif/frameworks/esp-idf-v5.2.1/components/app_trace", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/app_update", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader_support", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/bt", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/cmock", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/console", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/cxx", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/driver", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/efuse", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp-tls", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_adc", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_app_format", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_bootloader_format", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_coex", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_common", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_eth", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_event", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_gdbstub", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_hid", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_http_client", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_http_server", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_https_ota", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_https_server", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_hw_support", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_lcd", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_local_ctrl", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_mm", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_netif", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_netif_stack", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_partition", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_phy", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_pm", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_psram", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_ringbuf", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_timer", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_wifi", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/espcoredump", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/esptool_py", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/fatfs", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/hal", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/heap", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/http_parser", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/idf_test", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/ieee802154", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/json", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/log", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/lwip", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/main", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/mbedtls", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/mqtt", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/nvs_flash", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/nvs_sec_provider", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/openthread", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/perfmon", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/protobuf-c", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/protocomm", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/pthread", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/sdmmc", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/soc", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spi_flash", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/st7789", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/tcp_transport", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/touch_element", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/ulp", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/unity", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/usb", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/vfs", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/wear_levelling", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/wifi_provisioning", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/wpa_supplicant", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/xtensa", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -95,27 +95,12 @@
             "dir": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp",
             "type": "LIBRARY",
             "lib": "__idf_bsp",
-            "reqs": [ "driver", "esp_lcd" ],
+            "reqs": [ "vfs", "spiffs" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/bsp/libbsp.a",
-            "sources": [ "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp/fontx.c", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp/st7789.c" ],
-            "include_dirs": [ "." ]
-        },
-        "bsp_chzhou": {
-            "alias": "idf::bsp_chzhou",
-            "target": "___idf_bsp_chzhou",
-            "prefix": "idf",
-            "dir": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp_chzhou",
-            "type": "LIBRARY",
-            "lib": "__idf_bsp_chzhou",
-            "reqs": [ "driver", "esp_lcd" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/bsp_chzhou/libbsp_chzhou.a",
-            "sources": [ "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp_chzhou/st7789_driver.c" ],
+            "sources": [ "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp/bsp.c" ],
             "include_dirs": [ "." ]
         },
         "bt": {
@@ -830,12 +815,12 @@
             "dir": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [ "bsp_chzhou", "driver" ],
+            "reqs": [ "st7789", "bsp", "driver" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/main/main.c" ],
+            "sources": [ "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/main/task.c", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/main/main.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -1062,6 +1047,21 @@
             "file": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/spiffs/libspiffs.a",
             "sources": [ "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs/spiffs_api.c", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs/spiffs/src/spiffs_cache.c", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs/spiffs/src/spiffs_check.c", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs/spiffs/src/spiffs_gc.c", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs/spiffs/src/spiffs_hydrogen.c", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs/spiffs/src/spiffs_nucleus.c", "D:/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs/esp_spiffs.c" ],
             "include_dirs": [ "include" ]
+        },
+        "st7789": {
+            "alias": "idf::st7789",
+            "target": "___idf_st7789",
+            "prefix": "idf",
+            "dir": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/st7789",
+            "type": "LIBRARY",
+            "lib": "__idf_st7789",
+            "reqs": [ "driver", "esp_lcd" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/st7789/libst7789.a",
+            "sources": [ "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/st7789/fontx.c", "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/st7789/st7789.c" ],
+            "include_dirs": [ "." ]
         },
         "tcp_transport": {
             "alias": "idf::tcp_transport",
@@ -2157,7 +2157,7 @@
             "prefix": "idf",
             "dir": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/main",
             "lib": "__idf_main",
-            "reqs": [ "bsp_chzhou", "driver" ],
+            "reqs": [ "st7789", "bsp", "driver" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
@@ -2169,18 +2169,18 @@
             "prefix": "idf",
             "dir": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp",
             "lib": "__idf_bsp",
-            "reqs": [ "driver", "esp_lcd" ],
+            "reqs": [ "vfs", "spiffs" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
         },
-        "bsp_chzhou": {
-            "alias": "idf::bsp_chzhou",
-            "target": "___idf_bsp_chzhou",
+        "st7789": {
+            "alias": "idf::st7789",
+            "target": "___idf_st7789",
             "prefix": "idf",
-            "dir": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/bsp_chzhou",
-            "lib": "__idf_bsp_chzhou",
+            "dir": "C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/components/st7789",
+            "lib": "__idf_st7789",
             "reqs": [ "driver", "esp_lcd" ],
             "priv_reqs": [],
             "managed_reqs": [],

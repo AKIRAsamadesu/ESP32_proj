@@ -419,16 +419,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/bsp_chzhou/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/main/cmake_install.cmake")
+  include("C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/st7789/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/bsp/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/50127/Desktop/Cubic Prj/3.ESP32_proj/MiniCube/2-software/MiniCube_prj/build/esp-idf/main/cmake_install.cmake")
 endif()
 
