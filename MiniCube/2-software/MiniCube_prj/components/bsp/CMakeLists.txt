@@ -1,3 +1,3 @@
-idf_component_register(SRCS "bsp.c" 
+idf_component_register(SRCS "bsp.c"
                        INCLUDE_DIRS "."
-                       REQUIRES vfs spiffs)
+                       REQUIRES vfs spiffs st7789 pngle)

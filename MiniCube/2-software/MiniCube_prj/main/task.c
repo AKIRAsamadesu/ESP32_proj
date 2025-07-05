@@ -1,7 +1,7 @@
 #include "task.h"
 
 void display_task(void* param) {
-    static const char *TAG="display_task";
+    // static const char *TAG="display_task";
     
     ESP_ERROR_CHECK(file_system_init());
     TFT_t dev;
@@ -10,12 +10,19 @@ void display_task(void* param) {
 
     listSPIFFS("/img");
     char file[32];
+    ESP_LOGI(__FUNCTION__, "flash!");
+    strcpy(file, "/img/web03.png");
+    
     while(1) {
-        // lcd_fill_screen();
-        ESP_LOGI(TAG, "flash!");
-        
-        strcpy(file, "/img/web03.png");
-         
-        vTaskDelay(pdMS_TO_TICKS(10000));
+        // showPNG(&dev, file, CONFIG_WIDTH, CONFIG_HEIGHT);
+        lcdFillScreen(&dev, RED);
+        lcdDrawFinish(&dev);
+        vTaskDelay(pdMS_TO_TICKS(1000));
+        lcdFillScreen(&dev, GREEN);
+        lcdDrawFinish(&dev);
+        vTaskDelay(pdMS_TO_TICKS(1000));
+        lcdFillScreen(&dev, YELLOW);
+        lcdDrawFinish(&dev);
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }

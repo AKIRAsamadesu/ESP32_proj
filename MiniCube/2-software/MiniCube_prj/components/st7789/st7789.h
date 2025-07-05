@@ -3,6 +3,7 @@
 
 #include "driver/spi_master.h"
 #include "fontx.h"
+#include "st7789.h"
 
 #define rgb565(r, g, b) (((r & 0xF8) << 8) | ((g & 0xFC) << 3) | (b >> 3))
 
@@ -30,6 +31,7 @@
 #define LCD_HEIGHT 240
 #define LCD_COLOR_DEPTH 16
 
+#define CONFIG_FRAME_BUFFER 1
 typedef enum {DIRECTION0, DIRECTION90, DIRECTION180, DIRECTION270} DIRECTION;
 
 typedef enum {

@@ -84,7 +84,7 @@ void spi_master_init(TFT_t * dev, int16_t GPIO_MOSI, int16_t GPIO_SCLK, int16_t 
 		.sclk_io_num = GPIO_SCLK,
 		.quadwp_io_num = -1,
 		.quadhd_io_num = -1,
-		.max_transfer_sz = 0,
+		.max_transfer_sz = 240*240*2,
 		.flags = 0
 	};
 
@@ -189,7 +189,7 @@ bool spi_master_write_color(TFT_t * dev, uint16_t color, uint16_t size)
 // Add 202001
 bool spi_master_write_colors(TFT_t * dev, uint16_t * colors, uint16_t size)
 {
-	static uint8_t Byte[1024];
+	static uint8_t Byte[2048];
 	int index = 0;
 	for(int i=0;i<size;i++) {
 		Byte[index++] = (colors[i] >> 8) & 0xFF;
@@ -1176,7 +1176,7 @@ void lcdDrawFinish(TFT_t *dev)
 	uint16_t *image = dev->_frame_buffer;
 	while (size > 0) {
 		// 1024 bytes per time.
-		uint16_t bs = (size > 1024) ? 1024 : size;
+		uint16_t bs = (size > 2048) ? 2048 : size;
 		spi_master_write_colors(dev, image, bs);
 		size -= bs;
 		image += bs;
